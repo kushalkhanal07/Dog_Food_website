@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-button{
+  width: 100%;
+  border: none;
+  background-color: rgba(100, 189, 100, 0.776);
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.add-button:active{
+  background-color: lightgreen;
+}
+
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+/*Bag*/
+
+.added_image{
+  width: 100px;
+  height: 150px;
+}
+
+.items{
+  display: flex;
+}
+
+.flex_content{
+  padding-left: 10px;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.added-paragraph1{
+  
+  font-weight: bold;
+}
+
+.added-paragraph2{
+  
+  color: rgb(103, 99, 99);
+}
+
+.flex_added{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.added-paragraph3, .added-paragraph4{
+  font-weight: bolder;
+}
+
+.added-paragraph5{
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.days-span{
+  font-weight: bold;
+}
+
+.content_color{
+  color: rgb(19, 168, 226);
+}
+
+.added_item{
+  margin-left: 10%;
+  margin-top: 2%;
+  display: flex;
+}
+
+
+.delete-button{
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+}
+
+del{
+  color: gray;
+}
+
+
+/*add and delete item*/
+.details1{
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: gray;
+}
+
+.total_price{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 250px;
+  margin-left: 10%;
+}
+
+.flex_price{
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(57, 54, 54);
+}
+
+.flex_price1{
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(57, 54, 54);
+}
+
+.flex_price2{
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(57, 54, 54);
+}
+
+.flex_price3{
+  margin: 10px 0px;
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(57, 54, 54);
+}
+
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.details3, .details5, .details7, .details9{
+  flex: 1;
+  text-align: right;
+}
+
+.place_order{
+  border: none;
+  padding: 9px;
+  color: white;
+  background-color: #d20b0b;
+  cursor: pointer;
+}
+
+.place_order:active{
+  background-color: rgba(185, 63, 63, 0.747);
+}
+
+.container-add{
+  right: -560px;
+  transition: right 1s ease-in-out;
+  
+}
+
+.containers .container-add{
+  right: 0px;
+  transition: right 1s ease-in-out;
+}
+
+
+.background {
+  background-image: url('cat_dog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
